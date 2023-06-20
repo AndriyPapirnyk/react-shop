@@ -4,6 +4,7 @@ import Home from './home/Home';
 import Popuplar from './popular/Popular';
 import Customers from './customers/Customers';
 import Subscription from './subsription/Subscription';
+import Sales from './Sales/Sales';
 
 function Main() {
   return (
@@ -12,8 +13,9 @@ function Main() {
             <Header />
             <Home />
             <Popuplar />
-            <Customers /> 
             <Subscription />
+            <Sales />
+            <Customers /> 
         </div>
     </div>
   );

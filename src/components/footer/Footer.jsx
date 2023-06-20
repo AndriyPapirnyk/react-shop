@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer className='footer'>
         <div className="footer__container">
-          <p>Всі права захищено &copy; {data.getFullYear()}</p>
+          <p>All rights reserved &copy; {data.getFullYear()}</p>
         </div>
     </footer>
   );
