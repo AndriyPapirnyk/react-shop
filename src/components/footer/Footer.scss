@@ -3,100 +3,16 @@
     height: auto;
     display: flex;
     justify-content: center;
-    padding: 70px 0 0 0;
+    align-items: center;
     background-color: #305F64;
-    
     &__container{
         width: 1200px;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-    &__copyright{
-        width: 100%;
+        height: 10vh;
         display: flex;
         justify-content: center;
         align-items: center;
-        border-top: 1px solid #407980;
-        padding: 20px 0;
         p{
-            font-family: 'DM Sans';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 18px;
-            line-height: 23px;
-            color: #FFFFFF;
+            color: #fff;
         }
     }
-    &__main{
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: flex-start;
-        padding: 0 0 40px 0;
-        &-item{
-            display: flex;
-            flex-direction: column;
-            gap: 24px;
-            margin: 0 15px;
-            @media screen and (max-width: 936px) {
-                margin: 30px;
-            }
-            h1{
-                font-family: 'Montserrat';
-                font-style: normal;
-                font-weight: 700;
-                font-size: 24px;
-                line-height: 29px;
-                color: #FFFFFF;
-                @media screen and (max-width: 600px) {
-                    font-size: 22px;
-                }
-            }
-            h2{
-                font-family: 'Montserrat';
-                font-style: normal;
-                font-weight: 700;
-                font-size: 20px;
-                line-height: 24px;
-                color: #FFFFFF;
-            }
-            p{
-                font-family: 'DM Sans';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 18px;
-                line-height: 26px;
-                color: #FFFFFF;
-            }
-            &__social{
-                display: flex;
-                gap: 15px;
-                img{
-                    width: 20px;
-                    height: 20px;
-                }
-            }
-            &__input{
-                width: 250px;
-                height: 50px;
-                background-color: #fff;
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-                padding: 0 12px;
-                img{
-                    width: 28px;
-                    height: 28px;
-                }
-                input{
-                    border: none;
-                    outline: none;
-                }
-            }
-        }
-    }
-
 }

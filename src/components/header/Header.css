@@ -21,6 +21,7 @@
 .header__options img {
   width: 24px;
   height: 24px;
+  cursor: pointer;
 }
 .header ul {
   gap: 70px;
@@ -37,4 +38,5 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
+  cursor: pointer;
 }

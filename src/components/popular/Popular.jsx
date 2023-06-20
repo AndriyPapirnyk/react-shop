@@ -19,7 +19,7 @@ let popularList = [
 function Popuplar() {
   return (
     <section className='popular'>
-      <h1>Our Popular Furniture</h1>
+      <h1>Our Furniture</h1>
       <div className="popular__row">
         <p>All of our furniture uses the best materials and choices for our customers.</p>
         <div className='popular__row-options'>
