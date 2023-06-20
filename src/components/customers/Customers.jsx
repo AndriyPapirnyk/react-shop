@@ -13,7 +13,16 @@ function Customers() {
         <img className='customers__img' src={mainImg} alt="" />
         <div className="customers__text">
             <h1>Our customers are very <br /> importan to us</h1>
-            <p>All of our furniture uses the best materials and choices for <br /> our customers.All of our furniture uses the best materials <br /> and choices for our customers.</p>
+            <p>
+            @ Create an account to make purchases. <br />
+            @ Browse and search for furniture. <br />
+            @ Review detailed product information. <br />
+            @ Use the shopping cart for easy checkout. <br />
+            @ Enjoy a secure and hassle-free checkout process. <br />
+            @ Leave reviews and ratings for purchased products. <br />
+            @ Reach out to our customer support for assistance. <br />
+            @ Rest assured, your privacy and security are important to us.
+            </p>
             {reviews.map(item => <Review key={item.name} name={item.name} rate={item.rate} img={item.img} />)}
         </div>
     </section>
