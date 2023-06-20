@@ -9,7 +9,7 @@ function Card(props) {
         <img src={props.img} alt="" />
         <div className="card__info">
             <div className="row">
-                <h1>{props.name}</h1>
+                <h1>{props.color} {props.name}</h1>
                 <div>
                     <img src={likeImg} alt="" />
                     <img src={shareImg} alt="" />

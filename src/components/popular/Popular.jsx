@@ -16,7 +16,7 @@ function Popuplar() {
         </div>
       </div>
       <div className="popular__list">
-        {data.map(item => <Card key={item.name} name={item.name} price={item.price} img={item.img} />)}
+        {data.map(item => <Card key={item.name} name={item.name} price={item.price} color={item.color} img={item.img} />)}
       </div>
     </section>
   );

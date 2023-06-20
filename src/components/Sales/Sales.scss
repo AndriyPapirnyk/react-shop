@@ -1,0 +1,31 @@
+.sales{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 70px 0;
+    &__list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 40px;
+        @media screen and (max-width: 1205px) {
+            justify-content: center;
+        }
+    }
+    h1{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 52px;        
+        color: #242424;
+        @media screen and (max-width: 945px) {
+            text-align: center;
+        }
+        @media screen and (max-width: 600px) {
+            font-size: 28px;
+            margin: 0 10px;
+        }
+    }
+}
